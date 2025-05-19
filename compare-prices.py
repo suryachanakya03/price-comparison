@@ -10,7 +10,7 @@ import time
 
 app = Flask(__name__)
 
-CHROME_DRIVER_PATH = r"C:\Users\surya\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe"
+CHROME_DRIVER_PATH = r"C:\Users\surya\Documents\price comparison\chromedriver.exe"
 
 def setup_driver():
     options = Options()
